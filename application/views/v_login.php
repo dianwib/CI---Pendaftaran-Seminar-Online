@@ -30,7 +30,7 @@
 
 
       <!-- Banner -->
-       <section id="three" class="spotlight style3 left">
+       <section id="three" class="spotlight style3 left" style="background-color:black  ;">
           <div class="content">
              <div class="container">
         <div class="col-md-4 col-md-offset-4">
@@ -39,13 +39,13 @@
 
 
             <label for="id" class="sr-only">ID</label>
-            <input type="text" id="id" name="id" class="form-control" placeholder="ID / Email" required autofocus>
+            <input type="text" id="id" name="id" class="form-control" placeholder="NIK / Email" required autofocus>
             <br>
             <label for="password" class="sr-only">Password</label>
             <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
                
             <br>
-              <input style="background-color: #e44c65 " type="submit" class="btn btn-primary" value=" &nbsp Log In &nbsp">
+              <input style="background-color: #0875a8 " type="submit" class="btn btn-primary" value=" &nbsp Log In &nbsp">
           </form>
         </div>
         </div> <!-- /container -->
@@ -63,7 +63,7 @@
             <li class="icon alt fa-envelope"><span class="label">Email</span></a></li><li>2nd.wibowo@gmail.com</li>
           </ul>
           <ul class="copyright">
-            <li>&copy; Copyright 2018. All rights reserved.</li><li>Design: kelompok 11</li>
+            <li>&copy; Copyright 2018. All rights reserved.</li><li>Design: kelompok 7</li>
           </ul>
           <ul class="copyright">
           </ul>

@@ -17,7 +17,7 @@
 
       <!-- Header -->
         <header id="header">
-          <h1 id="logo">Kelompok 11</h1>
+          <h1 id="logo">kelompok 7</h1>
           <nav id="nav" class="container">
             <?php $this->load->view('menu');?> <!--Include menu-->
             
@@ -60,7 +60,7 @@
             <li class="icon alt fa-envelope"><span class="label">Email</span></a></li><li>2nd.wibowo@gmail.com</li>
           </ul>
           <ul class="copyright">
-            <li>&copy; Copyright 2018. All rights reserved.</li><li>Design: kelompok 11</li>
+            <li>&copy; Copyright 2018. All rights reserved.</li><li>Design: kelompok 7</li>
           </ul>
           <ul class="copyright">
           </ul>

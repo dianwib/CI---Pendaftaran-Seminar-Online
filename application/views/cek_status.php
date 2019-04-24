@@ -15,5 +15,20 @@ if($this->session->userdata('akses')!=''):?>
 
 <?php //sesion berisi
 if($this->session->userdata('akses')==''):?> 
-          <h4><marquee direction="left"> Sebelum mendaftar pastikan anda telah melakukan transfer ke nomor rekening yang telah disedikan</i></marquee></h4>
+          <h4><marquee direction="left">   <p>HTM :
+Presale 1 : (26 Mei - 01 Juni 2018) : Only 15K
+Presale 2 : (02-22 Juni 2018) : Only 20K
+OTS : 25K
+
+
+Dengan fasilitas:
+📚 Ilmu yang bermanfaat
+📜 Sertifikat
+📒 Note
+🎁 Door Prize
+🍿 Snack
+
+📑Cara Pendaftaran
+
+Transfer Ke Rekening XXX-XXX-XXXX Bank BTN atas nama "UKM-FT ITC"</p> </i></marquee></h4>
           <?php endif;?>

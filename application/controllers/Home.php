@@ -17,6 +17,7 @@ class Home extends CI_Controller{
 	}
 
 	function input_aksi_user(){
+    $nik=$this->input->post('nik');
     $nama=$this->input->post('nama');
     $password=$this->input->post('password');
     $level="publik";
@@ -30,7 +31,7 @@ class Home extends CI_Controller{
 
 
     $data=array(
-
+      'id' => $nik,
       'nama' => $nama,
       'password' => $password,
       'level' => $level,
@@ -42,7 +43,7 @@ class Home extends CI_Controller{
       );
     
     $this->User_model->input_data($table,$data);
-    echo '<script language="javascript">alert("Pendaftaran berhasil, silahkan login kembali menggunakan ID atau Email"); document.location="../home";</script>';   
+    echo '<script language="javascript">alert("Pendaftaran berhasil, silahkan login kembali menggunakan NIK atau Email"); document.location="../home";</script>';   
     //redirect('/Home');
   
   }

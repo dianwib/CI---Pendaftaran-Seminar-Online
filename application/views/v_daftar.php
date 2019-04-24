@@ -34,7 +34,7 @@
         <section id="banner">
           <div class="content">
           <h2>PENDAFTARAN SEMINAR</h2>
-      <form method="post" action="<?php echo base_url().'index.php/Home/input_aksi_user'?>" class="form-horizontal" role="form">
+      <form style="background-color: white;padding: 30px;" method="post" action="<?php echo base_url().'index.php/Home/input_aksi_user'?>" class="form-horizontal" role="form">
 
                     <?php if(!empty(@$notif)){ ?>
                     <div id="signupalert" class="alert alert-<?php echo @$notif['type'];?>">
@@ -42,6 +42,14 @@
                         <span></span>
                     </div>
                     <?php } ?>
+
+                    <div class="form-group">
+                        <label for="nik" class="col-md-3 control-label">NIK</label>
+                        <div class="col-md-9">
+                            <input type="number" class="form-control" name="nik" placeholder="nik" required="True" style="background-color: transparent;">
+                        </div>
+                    </div>
+
  
                     <div class="form-group">
                         <label for="nama" class="col-md-3 control-label">Nama Lengkap</label>

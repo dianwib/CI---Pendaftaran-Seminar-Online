@@ -17,11 +17,13 @@
 
       <!-- Header -->
         <header id="header">
-          <h1>  Hello 
+
+           <img  style="width: 100px;height: 120px;" src="<?php echo base_url().'images/itc.png'?>" alt="pamflte" />
+       <br>
+       <h1 style="margin-left: 100px;">  Hello 
           
          <?php echo $this->session->userdata('ses_nama');?></h1>
-          
-          
+           
           <nav id="nav" class="container">
             <?php $this->load->view('menu');?> <!--Include menu-->
             
@@ -33,18 +35,19 @@
         <section id="banner">
           <div class="content">
             <header>
-              <h2>Seminar Nasional INCOME</h2>
-              <marquee direction="left"><p> Selamat Datang di Website Seminar Nasionar INCOME(Invest Now and Your Money Will Come) with Grand Theme : "Spend Wisely, Get Wealthy" by BEM FEB UI x Syailendra Capital</p></marquee>
+              <h2>Seminar Nasional UKM-FT ITC 2018</h2>
+              <marquee direction="left"><p> Selamat Datang di Website Seminar Nasionar UKMFT-ITC (Arie Ramadhan - Malang Creators || Ferdiansyah. A - Madura Creators) with Grand Theme : "Be A Creative Creator" by UKM-FT ITC Universitas Trunojoyo Madura</p></marquee>
             </header>
-            
-            <img  src="<?php echo base_url().'images/pamflet.jpg'?>" alt="pamflte" />
+            <center>
+            <img src="<?php echo base_url().'images/itc.jpeg'?>" alt="pamflte" />
+          </center>
           </div>
           <a href="#one" class="goto-next scrolly">Next</a>
         </section>
 
     
       <!-- Five -->
-        <section id="five" class="wrapper style2 special fade">
+        <section id="five" style="background-color: white;" class="wrapper style2 special fade">
           <div class="container">
             <header>
            <?php $this->load->view('cek_status');?>
@@ -63,7 +66,7 @@
             <li class="icon alt fa-envelope"><span class="label">Email</span></a></li><li>2nd.wibowo@gmail.com</li>
           </ul>
           <ul class="copyright">
-            <li>&copy; Copyright 2018. All rights reserved.</li><li>Design: kelompok 11</li>
+            <li>&copy; Copyright 2018. All rights reserved.</li><li>Design: kelompok 7</li>
           </ul>
           <ul class="copyright">
           </ul>
