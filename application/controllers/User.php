@@ -1,5 +1,5 @@
 <?php
-class User extends CI_Controller{
+class Petugas extends CI_Controller{
  function __construct(){
     parent::__construct();
     $this->load->model('User_model');
